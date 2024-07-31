@@ -10,14 +10,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.1.13",
-    "aws-amplify": "^6.4.0",
+    "@aws-amplify/ui-react": "^6.1.14",
+    "@babel/plugin-transform-class-properties": "^7.24.7",
+    "@babel/plugin-transform-object-rest-spread": "^7.24.7",
+    "@eslint/config-array": "^0.17.1",
+    "@eslint/object-schema": "^2.1.4",
+    "aws-amplify": "^6.4.3",
+    "core-js": "^3.37.1",
+    "glob": "^11.0.0",
+    "lru-cache": "^11.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rimraf": "^6.0.1"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.0.4",
-    "@aws-amplify/backend-cli": "^1.1.1",
+    "@aws-amplify/backend-cli": "^1.2.1",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
